@@ -32,4 +32,4 @@ ru_filename = os.path.join(work_dir, ru_filename)
 
 # переименование файлов
 print(f'Заменяем {amer_filename} на {ru_filename}...')
-#shutil.move(amer_filename, ru_filename)
+#shutil.move(amer_filename, ru_filename) РАСКОММЕНТИРОВАТЬ ПОСЛЕ ПРОВЕРКИ
