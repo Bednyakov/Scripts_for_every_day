@@ -2,6 +2,8 @@ import requests, os, bs4
 
 
 def scrapy(url: str, dir_name: str) -> None:
+	'''Функция извлекает все комиксы с заданного url и сохраняет в заданную директорию'''
+
 	os.makedirs(dir_name, exist_ok=True)  # второй аргумент не бросает исключение, если директория уже создана
 
 	while not url.endswith("#"):
