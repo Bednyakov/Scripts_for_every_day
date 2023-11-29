@@ -38,6 +38,6 @@ def scrapy(url: str, dir_name: str) -> None:
 	print('Работа программы завершена.')
 
 if __name__ == '__main__':
-	scrapy('http://xkcd.com', 'comics XKCD' )
+	scrapy('http://xkcd.com', 'comics XKCD')
 
 
