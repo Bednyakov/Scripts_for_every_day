@@ -1,5 +1,4 @@
 import pyautogui
-import time
 
 try:
     while True:
