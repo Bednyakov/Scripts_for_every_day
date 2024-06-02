@@ -36,7 +36,6 @@ def main():
                 result = cv2.matchTemplate(gray_screenshot, template, cv2.TM_CCOEFF_NORMED)
                 threshold = 0.8
                 loc = np.where(result >= threshold)
-                print(loc)
 
                 # Получить координаты найденного изображения
                 for pt in zip(*loc[::-1]):
